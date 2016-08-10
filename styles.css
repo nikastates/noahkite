@@ -1,9 +1,15 @@
 body {
 	font-family: Lato, Sans;
+	background-image: url('images/background.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #BDC6B5;
 }
 
 .grd {
-	padding: 1rem 5rem;
+	padding: 2rem 7rem;
 }
 
 .header {
@@ -18,13 +24,15 @@ body {
 	margin: auto 0;
 }
 .nav a {
-	color: #000;
+	color: #BDC6B5;
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: 0 .4rem;
+	display: block;
+	padding-left: 0px;
 }
 .nav a:hover {
-	color: #000;
+	color: #BDC6B5;
 	text-decoration: none;
 }
 .nav a:first-child {
@@ -44,12 +52,21 @@ body {
 
 .bandcamp {
 	padding-top: 1rem;
-	text-align: left;
+	text-align: right;
 }
-.bandcamp iframe {
-	border: 0;
-	width: 30rem;
-	height: 30rem;
+.bandcamp-wrapper {
+	position: relative;
+	padding-bottom: 100%;
+	height: 0;
+}
+.bandcamp-wrapper iframe {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	max-width: 500px;
+	max-height: 500px;
 }
 
 .social {
@@ -57,17 +74,20 @@ body {
 	text-align: left;
 }
 .social a {
-	color: #000;
+	color: #BDC6B5;
 	font-size: 1.2rem;
 	padding-left: 1rem;
 }
 .social a:hover {
-	color: #000;
+	color: #BDC6B5;
 }
 
 @media screen and (min-width: 48rem) {
 	.nav {
 		text-align: right;
+	}
+	.nav a {
+		display: inline;
 	}
 
 	.bandcamp, .social {
@@ -78,3 +98,4 @@ body {
 		padding-top: 5rem;
 	}
 }
+
