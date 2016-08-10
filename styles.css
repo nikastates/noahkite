@@ -16,6 +16,9 @@ body {
 	text-align: left;
 	font-size: 2.5rem;
 	text-transform: uppercase;
+}
+
+.title {
 	font-weight: 700;
 }
 
