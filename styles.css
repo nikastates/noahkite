@@ -9,23 +9,26 @@ body {
 }
 
 .grd {
-	padding: 2rem 7rem;
+	padding: 0;
 }
 
 .header {
 	text-align: left;
 	font-size: 2.5rem;
 	text-transform: uppercase;
+	background-color: #fff;
 }
 
 .title {
 	font-weight: 700;
+	padding: 2rem 7rem;
 }
 
 .nav {
 	text-align: left;
 	font-size: 1.1rem;
 	margin: auto 0;
+	padding: 2rem 7rem;
 }
 .nav a {
 	color: #BDC6B5;
@@ -41,6 +44,10 @@ body {
 }
 .nav a:first-child {
 	padding-left: 0px;
+}
+
+.main {
+	padding: 2rem 7rem;
 }
 
 .about {
