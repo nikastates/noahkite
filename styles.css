@@ -10,13 +10,14 @@ body {
 
 .grd {
 	padding: 0;
+	margin: 0;
 }
 
 .header {
 	text-align: left;
 	font-size: 2.5rem;
 	text-transform: uppercase;
-	background-color: #fff;
+	background-color: #E2E4D9;
 }
 
 
@@ -26,6 +27,10 @@ body {
     padding: 1rem 5rem;
     font-family: "Essones Display", serif;
 }
+.title a {
+   color: #153C4D;
+   text-decoration: none;
+}
 
 .nav {
 	text-align: left;
@@ -34,7 +39,7 @@ body {
 	padding: 2rem 7rem;
 }
 .nav a {
-	color: #BDC6B5;
+	color: #153C4D;
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: 0 .4rem;
@@ -65,22 +70,22 @@ body {
 }
 
 .bandcamp {
-	padding-top: 1rem;
+	/*padding-top: 1rem;*/
 	text-align: right;
 }
 .bandcamp-wrapper {
-	position: relative;
-	padding-bottom: 100%;
-	height: 0;
+	/*position: relative;*/
+	/*padding-bottom: 100%;*/
+	/*height: 0;*/
 }
 .bandcamp-wrapper iframe {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 100%;
-	height: 100%;
-	max-width: 500px;
-	max-height: 500px;
+	/*position: absolute;*/
+	/*bottom: 0;*/
+	/*right: 0;*/
+	/*width: 100%;*/
+	/*height: 100%;*/
+	width: 500px;
+	height: 500px;
 }
 
 .social {
@@ -88,7 +93,7 @@ body {
 	text-align: left;
 }
 .social a {
-	color: #BDC6B5;
+	color: #153C4D;
 	font-size: 1.2rem;
 	padding-left: 1rem;
 }
@@ -105,11 +110,18 @@ body {
 	}
 
 	.bandcamp, .social {
-		text-align: right;
+		/*text-align: right;*/
 	}
 
 	.bandcamp {
-		padding-top: 5rem;
+		/*padding-top: 5rem;*/
 	}
+}
+
+.footer {
+	background: #E2E4D9;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 
