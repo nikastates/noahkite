@@ -1,5 +1,7 @@
+/* global styles */
+
 body {
-	font-family: Lato, sans-serif;
+	font-family: "serenity", sans-serif;
 	background-image: url('images/background2.jpg');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -7,6 +9,19 @@ body {
 	background-size: cover;
 	color: #BDC6B5;
 }
+
+h3 {
+	font-family: "futura-pt", sans-serif;
+	font-weight: 400;
+	font-size: 1.2rem;
+	color: #BDC6B5;
+}
+
+ul {
+	padding: 0;
+}
+
+/* page-specific styles */
 
 .body-about {
 	background-image: url('images/noahthing.jpg');
@@ -30,10 +45,10 @@ body {
 
 
 .title {
-    font-weight: 400;
+    font-weight: 700;
     font-size: 3rem;
     padding: 1rem 5rem;
-    font-family: "Acumin Pro Extra Condensed", sans-serif;
+    font-family: "futura-pt", sans-serif;
 }
 .title a {
    color: #153C4D;
@@ -41,6 +56,8 @@ body {
 }
 
 .nav {
+	font-family: "futura-pt", sans-serif;
+	font-weight: 400;
 	text-align: left;
 	font-size: 1.1rem;
 	margin: auto 0;
@@ -55,7 +72,7 @@ body {
 	padding-left: 0px;
 }
 .nav a:hover {
-	color: #BDC6B5;
+	color: #929D8B;
 	text-decoration: none;
 }
 .nav a:first-child {
@@ -82,12 +99,19 @@ body {
 }
 
 .dates {
-	text-align: right;
+	text-align: center;
 	padding-top: 10rem;
+	font-size: 1rem;
+}
+
+.dates a {
+	color: #BDC6B5;
+	text-decoration: underline;
+	text-align: center;
 }
 
 .bandcamp {
-	/*padding-top: 1rem;*/
+	/*padding-top: 1rem;
 	text-align: right;
 }
 .bandcamp-wrapper {
@@ -112,6 +136,7 @@ body {
 	width: 100%;
 }
 .copyright {
+	color: #929D8B;
 	text-transform: uppercase;
 	margin: auto 0;
 	font-size: 0.7rem;
@@ -119,7 +144,7 @@ body {
 }
 
 .copyright a {
-	color:#BDC6B5;
+	color:#929D8B;
 }
 .copyright a:hover {
 	color:#153C4D;
