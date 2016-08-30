@@ -8,6 +8,26 @@ body {
 	color: #BDC6B5;
 }
 
+.body-about {
+	font-family: Lato, sans-serif;
+	background-image: url('images/noahthing.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #BDC6B5;
+}
+
+.body-shows {
+	font-family: Lato, sans-serif;
+	background-image: url('images/33.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #BDC6B5;
+}
+
 .grd {
 	padding: 0;
 	margin: 0;
