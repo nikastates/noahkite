@@ -2,11 +2,6 @@
 
 body {
 	font-family: "serenity", sans-serif;
-	background-image: url('images/background2.jpg');
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
 	color: #BDC6B5;
 }
 
@@ -14,22 +9,47 @@ h3 {
 	font-family: "futura-pt", sans-serif;
 	font-weight: 400;
 	font-size: 1.2rem;
-	color: #BDC6B5;
+	color: #91935C;
 }
 
 ul {
 	padding: 0;
 }
 
+h5 {
+	font-family: "futura-pt", sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+	color: #BDC6B5;
+}
+
+input, textarea {
+	padding: 0.5rem;
+	margin-bottom: 0.5rem;
+	display: block;
+	width: 100%;
+	box-shadow: none;
+	border: none;
+	border-radius: 1px;
+	font-family: "futura-pt," sans-serif;
+	background-color: #eaece4;
+	opacity: .8;
+}
+
+input[type='submit'] {
+	font-family: "futura-pt", sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #0C2E3B;
+	background-color: #91935C;
+	opacity: 1;
+}
+
+
+/* background styles */
+
+
 /* page-specific styles */
-
-.body-about {
-	background-image: url('images/noahthing.jpg');
-}
-
-.body-shows {
-	background-image: url('images/33.jpg');
-}
 
 .grd {
 	padding: 0;
@@ -45,7 +65,7 @@ ul {
 
 
 .title {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 3rem;
     padding: 1rem 5rem;
     font-family: "futura-pt", sans-serif;
@@ -84,34 +104,137 @@ ul {
 }
 
 .main {
-	padding: 2rem 7rem;
+	padding: 2rem 7rem 2rem 5rem;
 }
 
-.about {
-	padding-right: 5rem;
+.main {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 700px;
+}
+
+.main-about {
+	background-image: url('images/bio.jpg');
+}
+
+.main-shows {
+	background-image: url('images/shows.jpg');
+}
+
+.main-index {
+	background-image: url('images/background3.jpg');
+}
+
+.main-contact {
+	background-image: url('images/contact.jpg');
+	text-align: center;
+}
+
+.pictures {
+	padding: 1rem;
+}
+
+.main-visual {
+	padding: 2rem 4rem 5rem 4rem;
+/*	background-color: #153C4D;*/
+}
+.contact {
+	font-weight: 400;
+	color: #0C2E3B;
+	font-size: 1rem;
+	padding: 4rem 18rem 0 18rem;
+}
+
+.contact h3 {
+	padding-bottom: 1rem;
+	font-weight: 700;
+}
+
+#contact-notification {
+	background: #6B8E9B;
+	display: none;
+	border-radius: 1px;
+	color: #092B38;
+	font-weight: 700;
+	font-size: 1rem;
+}
+
+.bio {
+	padding: 2rem 5rem 4rem 0;
+	/*padding-top: 3rem;*/
+	/*padding-right: 5rem;*/
+}
+
+/*.press-title {
+	text-align: center;
+}*/
+
+.presskit {
+	background-image: url('images/press.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.press {
+	font-family: "futura-pt", sans-serif;
+	font-weight: 700;
+	font-size: 1.2rem;
+	padding: 5rem 7rem 0rem 7rem;;
+	text-align: center;
+}
+
+.press-top {
+	padding: 0rem 7rem 0rem 7rem;
+	text-align: center;
+	color: #153C4D;
+
+}
+
+.four{
+	padding: 0rem 3rem 0rem 3rem;
+	text-align: center;
+	color: #153C4D;
+}
+
+.press-bottom {
+	padding: 0rem 7rem 5rem 7rem;
+	text-align: center;
+	color: #153C4D;
+}
+
+.quotes-left-top, .quotes-right-top {
+	padding: 2rem 8rem 0rem 8rem;
+}
+
+.quotes-left-bottom, .quotes-right-bottom {
+	padding: 0 8rem 0rem 8rem;
 }
 
 .mdia {
-
 }
+
 .mdia a:first-child {
 	padding-left: 0px;
 }
 
 .dates {
-	text-align: center;
-	padding-top: 10rem;
+	text-align: left;
+	padding-top: 12rem;
 	font-size: 1rem;
 }
 
 .dates a {
 	color: #BDC6B5;
 	text-decoration: underline;
-	text-align: center;
+	text-align: left;
 }
 
 .bandcamp {
-	/*padding-top: 1rem;
+	padding-top: 2.5rem;
 	text-align: right;
 }
 .bandcamp-wrapper {
@@ -131,7 +254,7 @@ ul {
 
 .footer {
 	background: #E2E4D9;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	width: 100%;
 }

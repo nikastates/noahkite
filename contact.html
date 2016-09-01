@@ -26,16 +26,31 @@
 			<a href='contact.html'><i class='fa fa-envelope'></i></a>
 		</div>
 	</div>
-	<div class='grd-row main main-index'>
-		<div class='grd-row-col-3-6--md about'>
-			<p>New record out now</p>
-		</div>
-		<div class='grd-row-col-3-6--md mdia'>
-			<div class='bandcamp'>
-				<div class='bandcamp-wrapper'>
-					<iframe src="https://bandcamp.com/EmbeddedPlayer/track=1433405823/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://redsteppes.bandcamp.com/track/i-did-not-speak-it">I Did Not Speak It by red steppes</a></iframe>
-				</div>
+	<div class='grd-row main main-contact'>
+		<div class='grd-row-col-6--md contact'>
+			<div id='contact-notification'>
+				THANKS!
 			</div>
+			<h3>CONTACT</h3>
+			<form id="contactform" method="POST">
+	    		<input type="text" name="name" placeholder="Your name">
+	    		<input type="email" name="_replyto" placeholder="Your email">
+	    		<textarea rows="5"  name="message" placeholder="Your message"></textarea>
+	    		<input type="submit" value="Send">
+	    		<input type="hidden" id='next' name="_next" />
+	    		<input type="hidden" name="_subject" value="Website contact" />
+	    		<input type="text" name="_gotcha" style="display:none" />
+			</form>
+			<script>
+	    		var contactform =  document.getElementById('contactform');
+	    		contactform.setAttribute('action', '//formspree.io/' + 'nikastates' + '@' + 'gmail' + '.' + 'com');
+	    		var next = document.getElementById('next');
+	    		next.setAttribute('value', window.location.href + '?thanks');
+	    		if (window.location.search == '?thanks') {
+	    			var notification = document.getElementById('contact-notification');
+	    			notification.style.display = 'block';
+	    		}
+			</script>
 		</div>
 	</div>
 </div>
