@@ -179,7 +179,9 @@ input[type='submit'] {
 	font-weight: 400;
 	color: #0C2E3B;
 	font-size: 1rem;
-	padding: 4rem 18rem 0 18rem;
+	margin: 0 auto;
+	padding: 4rem 5% 0 5%;
+	max-width: 600px;
 }
 
 .contact h3 {
