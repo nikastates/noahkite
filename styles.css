@@ -61,8 +61,10 @@ input[type='submit'] {
 }
 
 .coming_soon {
+	max-width: 600px;
 	text-align: center;
-	padding: 4rem 18rem 0 18rem;
+	margin: 0 auto;
+	padding: 4rem 5% 0 5%;
 }
 
 .coming_soon h3 {
