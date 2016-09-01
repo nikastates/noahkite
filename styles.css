@@ -65,6 +65,16 @@ input[type='submit'] {
 	padding: 4rem 18rem 0 18rem;
 }
 
+.coming_soon h3 {
+	font-size: 2rem;
+	padding-top: 2rem;
+}
+
+.coming_soon a {
+   color: #BDC6B5;
+}
+
+
 .cs-form {
 	background: #6B8E9B;
 	display: none;
