@@ -12,44 +12,31 @@
 <!--
 - make soundcloud always square at any viewport width
  -->
-<body>
-<div class='grd'>
-	<div class='grd-row header'>
-		<div class='grd-row-col-3-6--md title'>
-			<a href='index.html'>Noah Kite</a>
-		</div>
-		<div class='grd-row-col-3-6--md nav'>
-			<a href='about.html'>About</a>
-			<a href='shows.html'>Shows</a>
-			<a href="http://noahkite.bandcamp.com">Audio</a>
-			<a href='visual.html'>Visual</a>
-			<a href='contact.html'><i class='fa fa-envelope'></i></a>
-		</div>
-	</div>
-	<div class='grd-row main main-index'>
-		<div class='grd-row-col-3-6--md about'>
-			<h3>NEW RECORD COMING SOON!</h3>
-		</div>
-		<div class='grd-row-col-3-6--md mdia'>
-			<div class='bandcamp'>
-				<div class='bandcamp-wrapper'>
-			<!-- 		<iframe src="https://bandcamp.com/EmbeddedPlayer/track=1433405823/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://redsteppes.bandcamp.com/track/i-did-not-speak-it">I Did Not Speak It by red steppes</a></iframe> -->
-				</div>
-			</div>
-		</div>
+<body class='temporary'>
+	<div class='coming_soon'>
+		<h3>COMING SOON</h3>
+		<div class='cs_form'>
+			<form id="contactform" method="POST">
+			    		<input type="text" name="name" placeholder="Your name">
+			    		<input type="email" name="_replyto" placeholder="Your email">
+			    		<textarea rows="5"  name="message" placeholder="Your message"></textarea>
+			    		<input type="submit" value="Send">
+			    		<input type="hidden" id='next' name="_next" />
+			    		<input type="hidden" name="_subject" value="Website contact" />
+			    		<input type="text" name="_gotcha" style="display:none" />
+					</form>
+					<script>
+			    		var contactform =  document.getElementById('contactform');
+			    		contactform.setAttribute('action', '//formspree.io/' + 'kitestringmusik' + '@' + 'gmail' + '.' + 'com');
+			    		var next = document.getElementById('next');
+			    		next.setAttribute('value', window.location.href + '?thanks');
+			    		if (window.location.search == '?thanks') {
+			    			var notification = document.getElementById('contact-notification');
+			    			notification.style.display = 'block';
+			    		}
+					</script>
 	</div>
 </div>
-<div class='grd footer'>
-	<div class='grd-row'>
-		<div class='grd-row-col-3-6--md copyright'>
-			&copy; Noah Kite 2016. Photography &amp; website design by <a href="http://nikastates.com">Nika Aila States</a>
-		</div>
-		<div class='grd-row-col-3-6--md social'>
-			<a href='http://noahkite.bandcamp.com'><i class='fa fa-music'></i></a>
-			<a href='https://www.instagram.com/noahkite/'><i class='fa fa-instagram'></i></a>
-			<a href='https://www.facebook.com/kitestringmusik/?fref=ts'><i class='fa fa-facebook-square'></i></a>
-		</div>
-	</div>
 </div>
 </body>
 </html>

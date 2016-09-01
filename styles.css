@@ -7,7 +7,7 @@ body {
 
 h3 {
 	font-family: "futura-pt", sans-serif;
-	font-weight: 400;
+	font-weight: 700;
 	font-size: 1.2rem;
 	color: #91935C;
 }
@@ -50,6 +50,29 @@ input[type='submit'] {
 
 
 /* page-specific styles */
+
+.temporary {
+	background-image: url('images/background.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 700px;
+}
+
+.coming_soon {
+	text-align: center;
+	padding: 4rem 18rem 0 18rem;
+}
+
+.cs-form {
+	background: #6B8E9B;
+	display: none;
+	border-radius: 1px;
+	color: #092B38;
+	font-weight: 700;
+	font-size: 1rem;
+}
 
 .grd {
 	padding: 0;
