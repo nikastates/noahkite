@@ -5,15 +5,20 @@ body {
 	color: #BDC6B5;
 }
 
+p {
+	font-size: 2rem;
+}
+
 h3 {
 	font-family: "futura-pt", sans-serif;
 	font-weight: 700;
-	font-size: 1.2rem;
 	color: #91935C;
+	font-size: 2.5rem;
 }
 
 ul {
 	padding: 0;
+	list-style-type: none;
 }
 
 h5 {
@@ -102,7 +107,7 @@ input[type='submit'] {
 .title {
     font-weight: 400;
     font-size: 3rem;
-    padding: 1rem 5rem;
+    padding: 1rem 4rem;
     font-family: "futura-pt", sans-serif;
 }
 .title a {
@@ -114,9 +119,9 @@ input[type='submit'] {
 	font-family: "futura-pt", sans-serif;
 	font-weight: 400;
 	text-align: left;
-	font-size: 1.1rem;
+	font-size: 1.8rem;
 	margin: auto 0;
-	padding: 2rem 7rem;
+	padding: 0 4rem 2rem;
 }
 .nav a {
 	color: #153C4D;
@@ -139,7 +144,7 @@ input[type='submit'] {
 }
 
 .main {
-	padding: 2rem 7rem 2rem 5rem;
+	padding: 0 4rem;
 }
 
 .main {
@@ -176,16 +181,17 @@ input[type='submit'] {
 /*	background-color: #153C4D;*/
 }
 .contact {
+	font-size: 2rem;
 	font-weight: 400;
 	color: #0C2E3B;
-	font-size: 1rem;
 	margin: 0 auto;
-	padding: 4rem 10% 0 10%;
+	padding-bottom: 4rem;
 	
 }
 
 .contact h3 {
-	padding-bottom: 1rem;
+	padding: 2rem 0;
+	text-align: left;
 	font-weight: 700;
 }
 
@@ -195,18 +201,12 @@ input[type='submit'] {
 	border-radius: 1px;
 	color: #092B38;
 	font-weight: 700;
-	font-size: 1rem;
 }
 
 .bio {
-	padding: 2rem 5rem 4rem 0;
-	/*padding-top: 3rem;*/
-	/*padding-right: 5rem;*/
+	padding-top: 5rem;
+	padding: 3rem 0;
 }
-
-/*.press-title {
-	text-align: center;
-}*/
 
 .presskit {
 	background-image: url('images/press.jpg');
@@ -214,19 +214,23 @@ input[type='submit'] {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	padding: 0 4rem;
 }
 
 .press {
 	font-family: "futura-pt", sans-serif;
 	font-weight: 700;
-	font-size: 1.2rem;
-	padding: 5rem 7rem 0rem 7rem;;
-	text-align: center;
+	/*font-size: 1.2rem;*/
+	padding: 5rem 0 0;
+	text-align: left;
+}
+.press h3 {
+	color: #BDC6B5;
 }
 
 .press-top {
-	padding: 0rem 7rem 0rem 7rem;
-	text-align: center;
+	/*padding: 0rem 7rem 0rem 7rem;*/
+	text-align: left;
 	color: #153C4D;
 
 }
@@ -238,17 +242,27 @@ input[type='submit'] {
 }
 
 .press-bottom {
-	padding: 0rem 7rem 5rem 7rem;
-	text-align: center;
+	padding-bottom: 5rem;
+	text-align: left;
 	color: #153C4D;
 }
-
+/*
 .quotes-left-top, .quotes-right-top {
 	padding: 2rem 8rem 0rem 8rem;
 }
 
 .quotes-left-bottom, .quotes-right-bottom {
 	padding: 0 8rem 0rem 8rem;
+}*/
+
+.quote {
+	padding-bottom: 2rem;
+}
+.quote-text {
+	font-style: italic;
+}
+.quote-author {
+	color: #BDC6B5;
 }
 
 .mdia {
@@ -260,10 +274,10 @@ input[type='submit'] {
 
 .dates {
 	text-align: left;
-	padding-top: 12rem;
-	font-size: 1rem;
+	padding-top: 3rem;
+	font-size: 2rem;
+	/*font-size: 1rem;*/
 }
-
 .dates a {
 	color: #BDC6B5;
 	text-decoration: underline;
@@ -291,16 +305,17 @@ input[type='submit'] {
 
 .footer {
 	background: #E2E4D9;
-	position: fixed;
 	bottom: 0;
 	width: 100%;
+	padding: 1rem 0;
+	font-size: 1.3rem;
 }
 .copyright {
 	color: #929D8B;
 	text-transform: uppercase;
 	margin: auto 0;
-	font-size: 0.7rem;
-	padding: 0 5rem;
+	/*font-size: 0.7rem;*/
+	padding: 0 4rem;
 }
 
 .copyright a {
@@ -311,32 +326,89 @@ input[type='submit'] {
 }
 .social {
 	text-align: left;
-	padding: 0 7rem;
-	text-align: right;
+	padding: 0 4rem;
 }
 .social a {
 	color: #153C4D;
-	font-size: 1.7rem;
+	font-size: 2rem;
 	padding-left: 1rem;
+}
+.social a:first-child {
+	padding-left: 0;
 }
 .social a:hover {
 	color: #BDC6B5;
 }
 
-@media screen and (min-width: 48rem) {
+@media all and (min-width: 64rem) {
 	.nav {
+		padding-top: 2rem;
 		text-align: right;
+		font-size: 1.3rem;
+		padding-left: 0;
 	}
 	.nav a {
 		display: inline;
 	}
 
-	.bandcamp, .social {
-		/*text-align: right;*/
+	.bio {
+		padding: 6rem 6rem 7rem 0;
 	}
 
-	.bandcamp {
-		/*padding-top: 5rem;*/
+	.presskit {
+		padding-bottom: 3rem;
+	}
+	.press {
+		padding-top: 4rem;
+		padding-bottom: 3rem;
+		text-align: center;
+	}
+	.press-top {
+		margin-bottom: 3rem;
+	}
+	.press-bottom {
+		margin-bottom: 4rem;
+	}
+	.quote {
+		text-align: center;
+	}
+	.quote p {
+		margin: 0 auto;
+		width: 60%;
+	}
+	.quote-text {
+		padding-bottom: 1.5rem;
+	}
+
+	.dates {
+		font-size: 1rem;
+		padding: 9rem 0 7rem;
+	}
+	h3 {
+		font-size: 1.2rem;
+	}
+
+	.contact {
+		margin: 0 auto;
+		max-width: 30rem;
+		font-size: 1rem;
+		padding: 3rem 0 7rem;
+	}
+	.contact h3 {
+		font-size: 1.2rem;
+		text-align: center;
+	}
+
+	.footer {
+		position: fixed;
+		font-size: 1rem;
+	}
+	.social {
+		text-align: right;
+	}
+
+	p {
+		font-size: 1rem;
 	}
 }
 
