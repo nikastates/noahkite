@@ -180,6 +180,12 @@ input[type='submit'] {
 	padding: 2rem 4rem 5rem 4rem;
 /*	background-color: #153C4D;*/
 }
+
+.video {
+	margin: 0 auto;
+	background-color: #082A37;
+}
+
 .contact {
 	font-size: 2rem;
 	font-weight: 400;
