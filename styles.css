@@ -173,7 +173,7 @@ input[type='submit'] {
 }
 
 .pictures {
-	padding: 1rem;
+	/*padding: 1rem;*/
 }
 
 .gallery {
@@ -183,7 +183,7 @@ input[type='submit'] {
 
 .video {
 	margin: 0 auto;
-	background-color: #082A37;
+	background-image: url('images/video1.jpg');
 	padding: 2rem 4rem 5rem 4rem;
 }
 
