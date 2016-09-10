@@ -172,19 +172,72 @@ input[type='submit'] {
 	text-align: center;
 }
 
+.record {
+	padding-top: 5rem;
+	padding: 3rem 0;
+}
+
 .pictures {
-	/*padding: 1rem;*/
+	padding: 1rem;
 }
 
-.gallery {
-	padding: 2rem 4rem 5rem 4rem;
-/*	background-color: #153C4D;*/
+.pictures a {
+	padding: 0;
 }
 
-.video {
-	margin: 0 auto;
+.gallery1 {
+	padding: 2rem 4rem 0rem 4rem;
+	background-color: #E2E4D9;
+}
+
+.gallery2 {
+	padding: 0rem 4rem 0rem 4rem;
+	background-color: #E2E4D9;
+}
+
+.gallery3 {
+	padding: 0rem 4rem 2rem 4rem;
+	background-color: #E2E4D9;
+}
+
+.video1 {
 	background-image: url('images/video1.jpg');
-	padding: 2rem 4rem 5rem 4rem;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	/*min-height: 700px;*/
+	padding: 2rem 4rem 2rem 4rem;
+}
+
+.video2 {
+	background-image: url('images/video2.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	/*min-height: 700px;*/
+	padding: 2rem 4rem 8rem 4rem;
+}
+
+.video-col {
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+.video_wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+
+}
+.video_wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .contact {
@@ -293,7 +346,7 @@ input[type='submit'] {
 
 .bandcamp {
 	padding-top: 2.5rem;
-	text-align: right;
+	text-align: left;
 }
 .bandcamp-wrapper {
 	/*position: relative;*/
@@ -306,8 +359,8 @@ input[type='submit'] {
 	/*right: 0;*/
 	/*width: 100%;*/
 	/*height: 100%;*/
-	width: 500px;
-	height: 500px;
+	width: 300px;
+	height: 300px;
 }
 
 .footer {
@@ -317,6 +370,7 @@ input[type='submit'] {
 	padding: 1rem 0;
 	font-size: 1.3rem;
 }
+
 .copyright {
 	color: #929D8B;
 	text-transform: uppercase;
@@ -359,7 +413,7 @@ input[type='submit'] {
 	}
 
 	.bio {
-		padding: 6rem 6rem 7rem 0;
+		padding: 4rem 6rem 7rem 0;
 	}
 
 	.presskit {
@@ -406,6 +460,21 @@ input[type='submit'] {
 		text-align: center;
 	}
 
+	.bandcamp {
+		padding-top: 2.5rem;
+		text-align: right;
+	}
+
+	.bandcamp-wrapper iframe {
+		/*position: absolute;*/
+		/*bottom: 0;*/
+		/*right: 0;*/
+		/*width: 100%;*/
+		/*height: 100%;*/
+		width: 450px;
+		height: 450px;
+	}
+
 	.footer {
 		position: fixed;
 		font-size: 1rem;
@@ -419,7 +488,7 @@ input[type='submit'] {
 	}
 
 	.copyright {
-		font-size: 0.4rem;
+		font-size: 0.7rem;
 	}
 }
 
