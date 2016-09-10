@@ -56,7 +56,7 @@ input[type='submit'] {
 
 /* page-specific styles */
 
-.temporary {
+/*.temporary {
 	background-image: url('images/background.jpg');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -79,7 +79,7 @@ input[type='submit'] {
 
 .coming_soon a {
    color: #BDC6B5;
-}
+}*/
 
 
 .cs-form {
@@ -232,7 +232,7 @@ input[type='submit'] {
 	-o-background-size: cover;
 	background-size: cover;
 	/*min-height: 700px;*/
-	padding: 2rem 4rem 6rem 4rem;
+	padding: 2rem 4rem 6rem 2rem;
 }
 
 .video-col {
