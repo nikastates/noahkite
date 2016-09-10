@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Noah Kite</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/furtive/2.2.4/furtive.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://use.typekit.net/hqb4grt.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+</head>
+<!--
+- make soundcloud always square at any viewport width
+ -->
+<body class='temporary'>
+	<div class='coming_soon'>
+		<h3>COMING SOON</h3>
+		<p>to view the old site, visit <a href='http://cargocollective.com/kitestringmusik'>kitestringmusic</a></p>
+		<div class='cs_form'>
+			<form id="contactform" method="POST">
+			    		<input type="text" name="name" placeholder="Your name">
+			    		<input type="email" name="_replyto" placeholder="Your email">
+			    		<textarea rows="5"  name="message" placeholder="Your message"></textarea>
+			    		<input type="submit" value="Send">
+			    		<input type="hidden" id='next' name="_next" />
+			    		<input type="hidden" name="_subject" value="Website contact" />
+			    		<input type="text" name="_gotcha" style="display:none" />
+					</form>
+					<script>
+			    		var contactform =  document.getElementById('contactform');
+			    		contactform.setAttribute('action', '//formspree.io/' + 'kitestringmusik' + '@' + 'gmail' + '.' + 'com');
+			    		var next = document.getElementById('next');
+			    		next.setAttribute('value', window.location.href + '?thanks');
+			    		if (window.location.search == '?thanks') {
+			    			var notification = document.getElementById('contact-notification');
+			    			notification.style.display = 'block';
+			    		}
+					</script>
+		</div>
+	</div>
+</div>
+</body>
+</html>
