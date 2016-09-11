@@ -184,15 +184,16 @@ input[type='submit'] {
 }
 
 
-
 .about p {
 	font-style: italic;
 	color: #9E7E70;
 	margin: 0;
+	padding-top: 0;
 }
 
 .about h3 {
 	margin-bottom: 0;
+	color: #8E4B47;
 }
 
 #mc_embed_signup form {
@@ -201,12 +202,14 @@ input[type='submit'] {
 	width:100%;
 	text-align: left;
 	padding-top: .5rem;
-	padding-bottom: .2rem;
+	padding-bottom: .5rem;
+
 }
 
 #mc_embed_signup input.email {
 		background-color: #E2E4D9;
 		opacity: 1;
+		width: 18rem;
 }
 
 #mc_embed_signup_scroll input.email {
@@ -222,7 +225,7 @@ input[type='submit'] {
     border-radius: 0px;
     letter-spacing: .03em;
     color: #E2E4D9;
-    background-color: #91935C;
+    background-color: #81836E;
     box-sizing: border-box;
     height: 32px;
     line-height: 32px;
@@ -230,6 +233,10 @@ input[type='submit'] {
     display: inline-block;
     margin: 0;
     transition: all 0.23s ease-in-out 0s;
+}
+
+#mc_embed_signup .button:hover {
+	background-color: #A67772;
 }
 
 .record {
@@ -588,7 +595,7 @@ input[type='submit'] {
 	}
 
 	.about {
-	padding-top: 11rem;
+	padding-top: 12rem;
 
 	}
 }
