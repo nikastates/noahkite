@@ -183,6 +183,55 @@ input[type='submit'] {
 	padding-bottom: 0rem;
 }
 
+
+
+.about p {
+	font-style: italic;
+	color: #9E7E70;
+	margin: 0;
+}
+
+.about h3 {
+	margin-bottom: 0;
+}
+
+#mc_embed_signup form {
+	clear:left;
+	font:14px;
+	width:100%;
+	text-align: left;
+	padding-top: .5rem;
+	padding-bottom: .2rem;
+}
+
+#mc_embed_signup input.email {
+		background-color: #E2E4D9;
+		opacity: 1;
+}
+
+#mc_embed_signup_scroll input.email {
+	font-family: "futura-pt";
+	border-radius: 0px;
+}
+
+#mc_embed_signup .button {
+    font-size: 13px;
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 0px;
+    letter-spacing: .03em;
+    color: #E2E4D9;
+    background-color: #91935C;
+    box-sizing: border-box;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 18px;
+    display: inline-block;
+    margin: 0;
+    transition: all 0.23s ease-in-out 0s;
+}
+
 .record {
 	padding-top: 7rem;
 	padding-right: rem;
@@ -426,6 +475,7 @@ input[type='submit'] {
 	color: #BDC6B5;
 }
 
+
 @media all and (min-width: 64rem) {
 	.nav {
 		padding-top: 2rem;
@@ -532,5 +582,13 @@ input[type='submit'] {
 		}
 	}
 
+	.cover img{
+		max-width: 450px;
+		max-height: 450px;
+	}
 
+	.about {
+	padding-top: 11rem;
+
+	}
 }
