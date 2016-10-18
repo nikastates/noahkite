@@ -161,6 +161,8 @@ input[type='submit'] {
 
 .main-shows {
 	background-image: url('images/shows.jpg');
+	background-position: 80% 0;
+
 }
 
 .main-index {
