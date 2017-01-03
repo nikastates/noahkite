@@ -180,7 +180,7 @@ input[type='submit'] {
 }
 
 .main-audio1 {
-	min-height: 700px;
+	min-height: 500px;
 	background: url('images/10.jpg');
 	padding-bottom: 0rem;
 }
