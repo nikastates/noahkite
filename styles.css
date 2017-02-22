@@ -176,12 +176,12 @@ input[type='submit'] {
 
 .main-audio {
 	min-height: 700px;
-	background: url('images/35.jpg');
+	background-image: url('images/35.jpg');
 }
 
 .main-audio1 {
 	min-height: 700px;
-	background-color: #26343F;
+	background-image: url('images/36.jpg');
 	padding-bottom: 0rem;
 }
 
