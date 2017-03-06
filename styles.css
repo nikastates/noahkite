@@ -431,6 +431,10 @@ input[type='submit'] {
 	padding-top: 2.5rem;
 	text-align: left;
 }
+.bandcamp-1 {
+	padding-top: 2.5rem;
+	text-align: right;
+}
 .bandcamp-wrapper {
 	/*position: relative;*/
 	/*padding-bottom: 100%;*/
