@@ -417,7 +417,7 @@ input[type='submit'] {
 
 .dates {
 	text-align: left;
-	padding-top: 2rem;
+	padding-top: 4rem;
 	font-size: 2rem;
 	/*font-size: 1rem;*/
 }
@@ -533,7 +533,7 @@ input[type='submit'] {
 
 	.dates {
 		font-size: 1rem;
-		padding: 9rem 0 7rem;
+		padding: 5rem 0 7rem;
 	}
 	h3 {
 		font-size: 1.2rem;
