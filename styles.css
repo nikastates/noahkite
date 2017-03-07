@@ -597,6 +597,11 @@ input[type='submit'] {
 		padding-top: 10rem;
 		}
 	*/
+	
+	.new_record_main {
+ 		padding-top: 8rem;
+		font-size: 3rem;
+	}
 
 	.cover img{
 		max-width: 100%;
