@@ -176,12 +176,16 @@ input[type='submit'] {
 
 .main-audio {
 	min-height: 700px;
-	background-image: url('images/35.jpg');
+	background-image: url('images/31.jpg');
+}
+
+.main-audio h3 {
+	color: #273840;
 }
 
 .main-audio1 {
 	min-height: 700px;
-	background-image: url('images/31.jpg');
+	background-image: url('images/36.jpg');
 	padding-bottom: 0rem;
 }
 
@@ -589,18 +593,18 @@ input[type='submit'] {
 	}
 
 	.record {
-		padding-top: 5rem;
+		padding-top: 10rem;
 	}
 
 	
-	/*.new_record {
-		padding-top: 10rem;
+	.new_record {
+		padding-top: 4rem;
 		}
-	*/
+	
 	
 	.new_record_main {
- 		padding-top: 8rem;
-		font-size: 3rem;
+ 		padding-top: 7rem;
+		font-size: 4rem;
 	}
 
 	.cover img{
