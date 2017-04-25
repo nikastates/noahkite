@@ -616,6 +616,10 @@ input[type='submit'] {
 		color: #984F45;
 	}
 
+	.new_record_main a:hover {
+		color: #E17D6D;
+	}
+
 	.cover img{
 		max-width: 100%;
 		max-height: 450px;
