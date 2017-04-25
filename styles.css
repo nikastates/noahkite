@@ -605,6 +605,15 @@ input[type='submit'] {
 	.new_record_main {
  		padding-top: 7rem;
 		font-size: 4rem;
+		font-family: "futura-pt", sans-serif;
+		font-weight: 700;
+		color: #91935C;
+		font-size: 2.5rem;
+	}
+
+	.new_record_main a {
+		padding-left: 1rem;
+		color: #984F45;
 	}
 
 	.cover img{
