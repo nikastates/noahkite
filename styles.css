@@ -612,11 +612,11 @@ input[type='submit'] {
 
 	.new_record_main a {
 		padding-left: 2rem;
-		color: #984F45;
+		color: #E17D6D;
 	}
 
 	.new_record_main a:hover {
-		color: #E17D6D;
+		color: #984F45;
 	}
 
 	.cover img{
