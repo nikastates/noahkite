@@ -605,7 +605,15 @@ input[type='submit'] {
 	.new_record_main {
  		padding-top: 7rem;
 		font-size: 4rem;
+	}
+
+	.new_record_main h3 {
 		display: inline;
+	}
+	
+	.buylinks {
+		padding-left: .5rem;
+		padding-right: .5rem;
 	}
 
 	.cover img{
