@@ -494,6 +494,10 @@ input[type='submit'] {
 	color: #BDC6B5;
 }
 
+.new-record-main p {
+	font-size: 1rem;
+}
+
 
 @media all and (min-width: 64rem) {
 	.nav {
