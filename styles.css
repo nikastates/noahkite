@@ -498,6 +498,9 @@ input[type='submit'] {
 	font-size: 1rem;
 }
 
+.new-record-main a {
+	padding-left: 1rem;
+}
 
 @media all and (min-width: 64rem) {
 	.nav {
