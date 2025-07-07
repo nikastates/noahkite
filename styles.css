@@ -184,6 +184,11 @@ input[type='submit'] {
 	background-image: url('images/10-3.jpg');
 }
 
+.main-audio3 {
+	min-height: 700px;
+	background-image: url('images/sil.jpg');
+}
+
 .main-audio h3 {
 	color: #273840;
 }
