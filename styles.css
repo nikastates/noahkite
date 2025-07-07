@@ -179,6 +179,11 @@ input[type='submit'] {
 	background-image: url('images/31.jpg');
 }
 
+.main-audio2 {
+	min-height: 700px;
+	background-image: url('images/10-3.jpg');
+}
+
 .main-audio h3 {
 	color: #273840;
 }
